@@ -1,7 +1,6 @@
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from openai import OpenAI
-from sentence_transformers import CrossEncoder
 import logging
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 import os
