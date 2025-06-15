@@ -18,8 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # API keys and configuration
-QDRANT_API_KEY = "Zqa0jFliFIUN0GP42Pp7Jy6P-AxpRjM18-oBYFUQdsn5MmWWBlKnEg"
-OPENAI_API_KEY = "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"
+QDRANT_API_KEY = "Zqa0jFliFIUN0GP42Pp7Jy6P-AxpRjM18-oBYFUQdsn5MmWWBlKnEg
 QDRANT_CLUSTER_URL = "https://6c8299ea-71fe-4a63-a916-6e961520b10a.us-east-1-0.aws.cloud.qdrant.io"
 COLLECTION_NAME = "Chatbot_Telecom1"
 DEFAULT_QUESTION = "show all fees and charges"
