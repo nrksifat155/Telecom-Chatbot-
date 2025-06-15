@@ -4,9 +4,7 @@ from openai import OpenAI
 import logging
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 import os
-from dotenv import load_dotenv
 import re
-import os
 import pandas as pd
 # Load environment variables
 load_dotenv()
