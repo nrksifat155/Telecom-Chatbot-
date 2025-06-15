@@ -1,0 +1,9 @@
+PyPDF2
+cohere
+qdrant-client
+openai
+nltk
+gspread>=5.11.0
+google-auth>=2.22.0
+
+
